@@ -1,14 +1,14 @@
 import hashlib
 
 
-def gera_hash():
-    tipo_hash = int(input('''Alguns tipos de Hashs:
+def gera_hash() -> None:
+    tipo_hash: int = int(input('''Alguns tipos de Hashs:
     1) MD5
     2) SHA1
     3) SHA256
     4) SHA512
     Digite o tipo de hash desejado: '''))
-    texto = input("Digite o texto a ser gerado o hash: ")
+    texto: str = input("Digite o texto a ser gerado o hash: ")
 
     if tipo_hash == 1:
         hash_md5 = hashlib.md5(texto.encode('UTF-8'))
@@ -35,7 +35,7 @@ def gera_hash():
         print("Tipo de hash não foi identificado, gostaria de " +
               "tentar novamente?")
         print("x" * 73)
-        resposta = str(input("Resposta: "))
+        resposta: str = str(input("Resposta: "))
 
         if resposta.lower() == "sim":
             gera_hash()
