@@ -1,0 +1,50 @@
+tag: h1 --->>> Função: Define o título principal da página
+tag: footer --->>> Função: rodapé da página
+tag: header --->>> Função: define o cabeçalho da página
+tag: p --->>> Função: Essa é uma tag de parágrafo, ou seja, uma tag de texto
+tag: img --->>> Função: Adiciona uma imagem na página
+tag: h6 --->>> Função: Título de menor importância
+tag: h2 --->>> Função: Subtítulo da página
+tag: main --->>> Função: Define o conteúdo principal da página
+tag: body --->>> Função: Define todo o corpo do conteúdo da página
+tag: head --->>> Função: Responsável por passar informações para o navegador
+tag: a --->>> Função: Adiciona links na página
+tag: div --->>> Função: Realiza o aagrupamento dos conteúdos da página
+tag: section --->>> Função: Adiciona uma nova seção na página
+tag: title --->>> Função: Define o título da página na guia do navegador
+tag: figure --->>> Função: Adiciona uma figura/imagem na página
+tag: figcaption --->>> Função: Adiciona uma legenda para a imagem
+tag: nav --->>> Função: Responsável por criar uma parte de navegação na página
+tag: ul --->>> Função: Adiciona uma lista não ordenada (com bolinhas)
+tag: ol --->>> Função: Adiciona uma lista ordenada (com números)
+tag: li --->>> Função: Adiciona o elemento da lista
+tag: html --->>> Função: Responsável por definir que todo o conteúdo da página é HTML
+tag: !DOCTYPE html --->>> Função: Responsável por informar ao navegador a versão do HTML (neste caso, já é o HTML5)
+tag: button --->>> Função: Adiciona um botão na página
+tag: select --->>> Função: Adiciona um input de seleção de opções
+tag: option --->>> Função: Define as opções de um input "select"
+tag: label --->>> Função: Responsável por nomear os inputs
+tag: input --->>> Função: Adiciona um campo de entrada de dados de um usuário
+tag: form --->>> Função: Adiciona um formulário na página
+tag: fieldset --->>> Função: Responsável por dividir os campos do formulário de acordo com o assunto dos inputs
+tag: legend --->>> Função: Adiciona um título para o formulário dentro do fieldset
+tag: table --->>> Função: Adiciona uma tabela à página
+tag: tr --->>> Função: Define a linha da tabela
+tag: td --->>> Função: Define às células/coluna da linha
+tag: thead --->>> Função: Define o cabeçalho da tabela
+tag: th --->>> Função: Define a célula do cabeçalho da tabela
+tag: tbody --->>> Função: Define o corpo da tabela
+tag: tfoot --->>> Função: Define o rodapé da tabela
+tag: meta --->>> Função: Responsável por enviar os metadados para o navegador
+tag: textarea --->>> Função: Resposnável por adicionar um campo no qual o usuário consiga digitar uma mensagem extensa
+tag: link --->>> Função: Responsável por informar ao navegador que o arquivo HTML está linkado com outro arquivo externo
+tag: hr --->>> Função: Adiciona à página uma linha horizontal
+tag: span --->>> Função: Representa um container generico que não representa nada por natureza
+tag: strong --->>> Função: Responsável por deixar um conteúdo com um peso semântico maior, e também, por deixar aquele conteúdo em negrito
+tag: em --->>> Função: Responsável por deixar um conteúdo com um peso semântico maior, e também, por deixar aquele conteúdo em itálico (ênfase)
+tag: small --->>> Função: Responsável por deixar o texto pequeno
+tag: article --->>> Função: Adiciona uma seção com um conteúdo independente do conteúdo principal da página
+tag: iframe --->>> Função: Tag especial que é utilizada parar incorporar códigos HTML pegos de algum site, na qual há uma exibição extra na página
+tag: aside --->>> Função: Representa uma seção da página que possui um conteúdo relacionado com o conteúdo de seu entorno. São barras laterais que possui explicações, informações de perfil ou link de blogs etc.
+tag: address --->>> Função: Responsável por fornecer informações de contato para os conteúdos de body ou article.
+tag: br --->>> Função: Pular uma linha
