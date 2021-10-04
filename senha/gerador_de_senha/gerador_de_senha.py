@@ -11,44 +11,44 @@ print("Tipos:\n"
       "5) Todos os anteriores (recomendado)\n")
 
 
-tipo_de_senha = int(input("Digite o tipo de senha escolhido: "))
-tamanho_da_senha = int(input("Digite o tamanho desejado para a senha: "))
+tipo_de_senha: int = int(input("Digite o tipo de senha escolhido: "))
+tamanho_da_senha: int = int(input("Digite o tamanho desejado para a senha: "))
 
 
 def gera_senha_minuscula() -> None:
-    caracteres_minusculos = string.ascii_lowercase
+    caracteres_minusculos: str = string.ascii_lowercase
     print("==============senha=============\n"
           "Copie sua senha: " +
           "".join(random.choice(caracteres_minusculos)
                   for caractere in range(tamanho_da_senha)))
 
 
-def gera_senha_maiuscula():
-    caracteres_maiusculos = string.ascii_uppercase
+def gera_senha_maiuscula() -> None:
+    caracteres_maiusculos: str = string.ascii_uppercase
     print("==============senha=============\n"
           "Copie sua senha: " +
           "".join(random.choice(caracteres_maiusculos)
                   for caractere in range(tamanho_da_senha)))
 
 
-def gera_senha_numerica():
-    caracteres_numericos = string.digits
+def gera_senha_numerica() -> None:
+    caracteres_numericos: str = string.digits
     print("==============senha=============\n"
           "Copie sua senha: " +
           "".join(random.choice(caracteres_numericos)
                   for caractere in range(tamanho_da_senha)))
 
 
-def gera_senha_caracteres_especiais():
-    caracteres_especiais = "@#!&$#%*/ç.;:?¨()[]{}|,^~+-¨'_=°ªº"
+def gera_senha_caracteres_especiais() -> None:
+    caracteres_especiais: str = "@#!&$#%*/ç.;:?¨()[]{}|,^~+-¨'_=°ªº"
     print("==============senha=============\n"
           "Copie sua senha: " +
           "".join(random.choice(caracteres_especiais)
                   for caractere in range(tamanho_da_senha)))
 
 
-def gera_senha_forte():
-    caracteres = string.ascii_letters + string.digits +\
+def gera_senha_forte() -> None:
+    caracteres: str = string.ascii_letters + string.digits +\
                  "@#!&$#%*/ç.;:?¨()[]{}|,^~+-¨'_=°ªº"
     print("==============senha=============\n"
           "Copie sua senha: " +
