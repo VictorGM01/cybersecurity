@@ -19,6 +19,8 @@ def encriptar_cifra_de_cesar(cifra: str, chave: int) -> str:
             if index_letra_encriptada <= 25:
                 letra_encriptada = alfabeto[index_letra_encriptada]
                 cifra_encriptada += letra_encriptada
+
+            # executado apenas se tiver a letra Z na frase encriptada
             else:
                 index_letra_encriptada -= 26
                 letra_encriptada = alfabeto[index_letra_encriptada]
