@@ -3,8 +3,8 @@ def encriptar_cifra_de_cesar(cifra: str, chave: int) -> str:
     cifra_encriptada: str = ""
 
     for letra in cifra:
-        letra = letra.upper()
-        index_alfabeto = alfabeto.find(letra)  # posição da letra no alfabeto
+        letra: str = letra.upper()
+        index_alfabeto: int = alfabeto.find(letra)  # posição no alfabeto
 
         # Se a letra não estiver no alfabeto, adiciona na cifra encriptada
         # Ex.: espaços, símbolos, etc
