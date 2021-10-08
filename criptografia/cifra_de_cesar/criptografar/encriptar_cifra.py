@@ -35,5 +35,5 @@ def encriptar_cifra_de_cesar(cifra: str, chave: int) -> str:
     return cifra_encriptada
 
 
-# teste
+# teste -> compatível com o arquivo 'decripta_cifra'
 print(encriptar_cifra_de_cesar("Victor  diz: Ola Mundo!", 10))
