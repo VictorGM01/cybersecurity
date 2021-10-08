@@ -36,4 +36,5 @@ def encriptar_cifra_de_cesar(cifra: str, chave: int) -> str:
 
 
 # teste -> compatível com o arquivo 'decripta_cifra'
-print(encriptar_cifra_de_cesar("Victor  diz: Ola Mundo!", 10))
+print(encriptar_cifra_de_cesar("Victor diz: Ola Mundo!", 10))
+# output: FSMDYB NSJ: YVK WEXNY!
